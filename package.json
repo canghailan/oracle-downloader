@@ -1,0 +1,22 @@
+{
+  "name": "oracle-downloader",
+  "version": "1.0.0",
+  "description": "1. 通过 get-url.js 脚本获取下载链接。 2. 链接收集到 index.txt 中。 3. 使用 wget 批量下载。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canghailan/oracle-downloader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canghailan/oracle-downloader/issues"
+  },
+  "homepage": "https://github.com/canghailan/oracle-downloader#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
